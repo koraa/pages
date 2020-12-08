@@ -5,6 +5,8 @@ export function playVideo() {
     $video.play();
 }
 
+
+
 function decorateVideoSections() {
 
         // videos
