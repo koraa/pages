@@ -19,6 +19,9 @@ function getThumbnail(step) {
   return thumbnail;
 }
 
+
+
+
 function wrapSections(element) {
   document.querySelectorAll(element).forEach(($div) => {
     const $wrapper = createTag("div", { class: "section-wrapper" });

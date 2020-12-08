@@ -10,4 +10,4 @@ jobs:
         uses: adobe-rnd/github-purge-cache-action@karo/instrumentation
         with:
           helix-url: https://pages.adobe.com/
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN}}
