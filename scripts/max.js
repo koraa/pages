@@ -21,6 +21,9 @@ async function submitSheetForm($form, sheetid, thankyou) {
     }
 }
 
+
+
+
 // html output for form fields
 function getFieldHTML(name, type, options, attributes) {
     let html=`<label for="${name}">${name} ${attributes.mandatory?'*':''}</label><br>`;
